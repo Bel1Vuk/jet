@@ -3,9 +3,9 @@ package mysql
 import (
 	"testing"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/dvds/table"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jettArrays/v2/mysql"
+	. "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/mysql/dvds/table"
 )
 
 func TestUpdateWithJoin(t *testing.T) {

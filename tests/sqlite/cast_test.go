@@ -3,8 +3,8 @@ package sqlite
 import (
 	"testing"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jettArrays/v2/sqlite"
 	"github.com/stretchr/testify/require"
 )
 

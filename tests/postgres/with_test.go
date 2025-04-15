@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/northwind/model"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/northwind/table"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jettArrays/v2/postgres"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/northwind/model"
+	. "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/northwind/table"
 	"github.com/stretchr/testify/require"
 )
 

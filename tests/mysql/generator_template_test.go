@@ -6,14 +6,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Bel1Vuk/jetArrays/v2/generator/metadata"
-	mysql2 "github.com/Bel1Vuk/jetArraystArrays/v2/generator/mysql"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/generator/template"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/3rdparty/snaker"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/utils/dbidentifier"
-	postgres2 "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/dbconfig"
-	file2 "github.com/Bel1Vuk/jetArraystArrays/v2/tests/internal/utils/file"
+	"github.com/Bel1Vuk/jet/v2/generator/metadata"
+	mysql2 "github.com/Bel1Vuk/jettArrays/v2/generator/mysql"
+	"github.com/Bel1Vuk/jettArrays/v2/generator/template"
+	"github.com/Bel1Vuk/jettArrays/v2/internal/3rdparty/snaker"
+	"github.com/Bel1Vuk/jettArrays/v2/internal/utils/dbidentifier"
+	postgres2 "github.com/Bel1Vuk/jettArrays/v2/postgres"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/dbconfig"
+	file2 "github.com/Bel1Vuk/jettArrays/v2/tests/internal/utils/file"
 	"github.com/stretchr/testify/require"
 )
 

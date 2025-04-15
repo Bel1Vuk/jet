@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/Bel1Vuk/jetArrays/v2/mysql"
-	jetmysql "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/stmtcache"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/dbconfig"
+	"github.com/Bel1Vuk/jet/v2/mysql"
+	jetmysql "github.com/Bel1Vuk/jettArrays/v2/mysql"
+	"github.com/Bel1Vuk/jettArrays/v2/stmtcache"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/dbconfig"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/require"
 

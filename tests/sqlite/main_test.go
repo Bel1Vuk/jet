@@ -8,10 +8,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/throw"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/stmtcache"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/dbconfig"
+	"github.com/Bel1Vuk/jet/v2/internal/utils/throw"
+	"github.com/Bel1Vuk/jettArrays/v2/sqlite"
+	"github.com/Bel1Vuk/jettArrays/v2/stmtcache"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/dbconfig"
 	"github.com/pkg/profile"
 	"github.com/stretchr/testify/require"
 

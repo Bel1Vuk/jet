@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	"github.com/Bel1Vuk/jettArrays/v2/qrm"
 	"github.com/stretchr/testify/require"
 
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/sakila/model"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/sakila/table"
+	. "github.com/Bel1Vuk/jettArrays/v2/sqlite"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/sqlite/sakila/model"
+	. "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/sqlite/sakila/table"
 )
 
 func TestVALUES(t *testing.T) {

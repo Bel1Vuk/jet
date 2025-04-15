@@ -1,25 +1,25 @@
 package postgres
 
 import (
-	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/ptr"
+	"github.com/Bel1Vuk/jet/v2/internal/utils/ptr"
 	"github.com/stretchr/testify/assert"
 
 	"testing"
 	"time"
 
-	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
+	"github.com/Bel1Vuk/jettArrays/v2/qrm"
 	"github.com/lib/pq"
 
 	"github.com/stretchr/testify/require"
 
 	"github.com/google/uuid"
 
-	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/testutils"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/model"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/table"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/view"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/testdata/results/common"
+	"github.com/Bel1Vuk/jettArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jettArrays/v2/postgres"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/test_sample/model"
+	. "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/test_sample/table"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/test_sample/view"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/testdata/results/common"
 )
 
 var AllTypesAllColumns = AllTypes.AllColumns.

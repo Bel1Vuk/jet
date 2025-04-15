@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/dvds/model"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/mysql/dvds/model"
 
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
+	. "github.com/Bel1Vuk/jettArrays/v2/mysql"
 )
 
 func TestRawStatementSelect(t *testing.T) {

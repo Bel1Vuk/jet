@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/model"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/table"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jettArrays/v2/postgres"
+	"github.com/Bel1Vuk/jettArrays/v2/qrm"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/dvds/model"
+	. "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/dvds/table"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

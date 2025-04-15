@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Bel1Vuk/jetArrays/v2/stmtcache"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/internal/utils/repo"
+	"github.com/Bel1Vuk/jet/v2/stmtcache"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/internal/utils/repo"
 	"github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/dbconfig"
+	"github.com/Bel1Vuk/jettArrays/v2/postgres"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/dbconfig"
 	_ "github.com/lib/pq"
 	"github.com/pkg/profile"
 	"github.com/stretchr/testify/require"

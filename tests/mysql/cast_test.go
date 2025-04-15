@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	. "github.com/Bel1Vuk/jetArrays/v2/mysql"
-	. "github.com/Bel1Vuk/jetArrays/v2/tests/.gentestdata/mysql/test_sample/table"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jet/v2/mysql"
+	. "github.com/Bel1Vuk/jet/v2/tests/.gentestdata/mysql/test_sample/table"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,15 +5,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	"github.com/Bel1Vuk/jettArrays/v2/qrm"
 	"github.com/google/go-cmp/cmp"
 	"github.com/jackc/pgtype"
 	"github.com/stretchr/testify/require"
 
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/model"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/table"
+	. "github.com/Bel1Vuk/jettArrays/v2/postgres"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/test_sample/model"
+	. "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/test_sample/table"
 )
 
 func TestRangeTableSelect(t *testing.T) {

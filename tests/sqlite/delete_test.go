@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bel1Vuk/jetArrays/v2/qrm"
+	"github.com/Bel1Vuk/jet/v2/qrm"
 
-	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/testutils"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/test_sample/model"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/test_sample/table"
+	"github.com/Bel1Vuk/jettArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jettArrays/v2/sqlite"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/sqlite/test_sample/model"
+	. "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/sqlite/test_sample/table"
 	"github.com/stretchr/testify/require"
 )
 

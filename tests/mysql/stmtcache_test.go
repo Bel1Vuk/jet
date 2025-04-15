@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/stmtcache"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/dvds/model"
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/dvds/table"
+	"github.com/Bel1Vuk/jet/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jettArrays/v2/mysql"
+	"github.com/Bel1Vuk/jettArrays/v2/stmtcache"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/mysql/dvds/model"
+	. "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/mysql/dvds/table"
 	"github.com/stretchr/testify/require"
 )
 

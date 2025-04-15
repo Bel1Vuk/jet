@@ -5,15 +5,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bel1Vuk/jetArrays/v2/qrm"
+	"github.com/Bel1Vuk/jet/v2/qrm"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/testutils"
-	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/model"
-	model2 "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/model"
+	"github.com/Bel1Vuk/jettArrays/v2/internal/testutils"
+	"github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/dvds/model"
+	model2 "github.com/Bel1Vuk/jettArrays/v2/tests/.gentestdata/jetdb/test_sample/model"
 
-	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
+	. "github.com/Bel1Vuk/jettArrays/v2/postgres"
 )
 
 func TestRawStatementSelect(t *testing.T) {
