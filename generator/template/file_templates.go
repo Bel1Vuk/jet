@@ -14,7 +14,7 @@ var tableSQLBuilderTemplate = `
 package {{package}}
 
 import (
-	"github.com/go-jet/jet/v2/{{dialect.PackageName}}"
+	"github.com/Bel1Vuk/jetArrays/v2/{{dialect.PackageName}}"
 )
 
 var {{tableTemplate.InstanceName}} = new{{tableTemplate.TypeName}}("{{schemaName}}", "{{.Name}}", "{{tableTemplate.DefaultAlias}}")
@@ -133,7 +133,7 @@ type {{$modelTableTemplate.TypeName}} struct {
 
 var enumSQLBuilderTemplate = `package {{package}}
 
-import "github.com/go-jet/jet/v2/{{dialect.PackageName}}"
+import "github.com/Bel1Vuk/jetArrays/v2/{{dialect.PackageName}}"
 
 {{golangComment .Comment}}
 var {{enumTemplate.InstanceName}} = &struct {

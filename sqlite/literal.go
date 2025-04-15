@@ -1,8 +1,9 @@
 package sqlite
 
 import (
-	"github.com/go-jet/jet/v2/internal/jet"
 	"time"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/jet"
 )
 
 // Keywords

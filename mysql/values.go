@@ -1,6 +1,6 @@
 package mysql
 
-import "github.com/go-jet/jet/v2/internal/jet"
+import "github.com/Bel1Vuk/jetArrays/v2/internal/jet"
 
 type values struct {
 	jet.Values

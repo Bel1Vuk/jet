@@ -1,6 +1,6 @@
 package sqlite
 
-import "github.com/go-jet/jet/v2/internal/jet"
+import "github.com/Bel1Vuk/jetArrays/v2/internal/jet"
 
 // CommonTableExpression defines set of interface methods for postgres CTEs
 type CommonTableExpression interface {

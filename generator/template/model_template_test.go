@@ -1,9 +1,10 @@
 package template
 
 import (
-	"github.com/go-jet/jet/v2/generator/metadata"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/Bel1Vuk/jetArrays/v2/generator/metadata"
+	"github.com/stretchr/testify/require"
 )
 
 func Test_TableModelField(t *testing.T) {

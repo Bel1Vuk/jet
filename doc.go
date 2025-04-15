@@ -7,18 +7,18 @@ Jet currently supports PostgreSQL, MySQL, MariaDB and SQLite. Future releases wi
 
 Use the command bellow to add jet as a dependency into go.mod project:
 
-	$ go get -u github.com/go-jet/jet/v2
+	$ go get -u github.com/Bel1Vuk/jetArrays/v2
 
 Jet generator can be installed in one of the following ways:
 
  1. (Go1.16+) Install jet generator using go install:
-    go install github.com/go-jet/jet/v2/cmd/jet@latest
+    go install github.com/Bel1Vuk/jetArrays/v2/cmd/jet@latest
 
  2. Install jet generator to GOPATH/bin folder:
-    cd $GOPATH/src/ && GO111MODULE=off go get -u github.com/go-jet/jet/cmd/jet
+    cd $GOPATH/src/ && GO111MODULE=off go get -u github.com/Bel1Vuk/jetArrays/cmd/jet
 
  3. Install jet generator into specific folder:
-    git clone https://github.com/go-jet/jet.git
+    git clone https://github.com/Bel1Vuk/jetArrays.git
     cd jet && go build -o dir_path ./cmd/jet
 
 Make sure that the destination folder is added to the PATH environment variable.
@@ -38,7 +38,7 @@ Before we can write SQL queries in Go, we need to import generated SQL builder a
 
 To write postgres SQL queries we import:
 
-	. "github.com/go-jet/jet/v2/postgres" // Dot import is used so that Go code resemble as much as native SQL. It is not mandatory.
+	. "github.com/Bel1Vuk/jetArrays/v2/postgres" // Dot import is used so that Go code resemble as much as native SQL. It is not mandatory.
 
 Then we can write the SQL query:
 
@@ -155,6 +155,6 @@ If we print destination as json, we'll get:
 	]
 
 Detail info about all statements, features and use cases can be
-found at project wiki page - https://github.com/go-jet/jet/wiki.
+found at project wiki page - https://github.com/Bel1Vuk/jetArrays/wiki.
 */
 package jet
