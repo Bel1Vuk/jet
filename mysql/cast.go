@@ -1,8 +1,9 @@
 package mysql
 
 import (
-	"github.com/go-jet/jet/v2/internal/jet"
 	"strconv"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/jet"
 )
 
 type cast struct {

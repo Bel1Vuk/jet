@@ -4,17 +4,19 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/go-jet/jet/v2/mysql"
-	jetmysql "github.com/go-jet/jet/v2/mysql"
-	"github.com/go-jet/jet/v2/stmtcache"
-	"github.com/go-jet/jet/v2/tests/dbconfig"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/stretchr/testify/require"
 	"runtime"
 
-	"github.com/pkg/profile"
+	"github.com/Bel1Vuk/jetArrays/v2/mysql"
+	jetmysql "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/stmtcache"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/dbconfig"
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/stretchr/testify/require"
+
 	"os"
 	"testing"
+
+	"github.com/pkg/profile"
 )
 
 var db *stmtcache.DB

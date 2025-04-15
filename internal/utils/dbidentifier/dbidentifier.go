@@ -1,9 +1,10 @@
 package dbidentifier
 
 import (
-	"github.com/go-jet/jet/v2/internal/3rdparty/snaker"
 	"strings"
 	"unicode"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/3rdparty/snaker"
 )
 
 // ToGoIdentifier converts database identifier to Go identifier.

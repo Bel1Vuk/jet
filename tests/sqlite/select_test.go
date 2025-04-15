@@ -2,18 +2,19 @@ package sqlite
 
 import (
 	"context"
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
-	model2 "github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/chinook/model"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/chinook/table"
 	"strings"
 	"testing"
 	"time"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/sqlite"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/sakila/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/sakila/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/sakila/view"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/ptr"
+	model2 "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/chinook/model"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/chinook/table"
+
+	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/sakila/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/sakila/table"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/sakila/view"
 
 	"github.com/stretchr/testify/require"
 )

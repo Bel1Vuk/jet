@@ -3,13 +3,14 @@ package postgres
 import (
 	"context"
 	"database/sql"
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/stmtcache"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/table"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/stmtcache"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/table"
+	"github.com/stretchr/testify/require"
 )
 
 func TestPreparedStatementCache(t *testing.T) {

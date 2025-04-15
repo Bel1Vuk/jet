@@ -1,24 +1,25 @@
 package postgres
 
 import (
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/ptr"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-jet/jet/v2/qrm"
-	"github.com/lib/pq"
 	"testing"
 	"time"
+
+	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
+	"github.com/lib/pq"
 
 	"github.com/stretchr/testify/require"
 
 	"github.com/google/uuid"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/view"
-	"github.com/go-jet/jet/v2/tests/testdata/results/common"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/table"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/view"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/testdata/results/common"
 )
 
 var AllTypesAllColumns = AllTypes.AllColumns.

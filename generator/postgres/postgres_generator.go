@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/go-jet/jet/v2/generator/metadata"
-	"github.com/go-jet/jet/v2/generator/template"
-	"github.com/go-jet/jet/v2/postgres"
+	"github.com/Bel1Vuk/jetArrays/v2/generator/metadata"
+	"github.com/Bel1Vuk/jetArrays/v2/generator/template"
+	"github.com/Bel1Vuk/jetArrays/v2/postgres"
 	"github.com/jackc/pgconn"
 )
 

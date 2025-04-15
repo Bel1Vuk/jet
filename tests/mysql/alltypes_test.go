@@ -1,22 +1,23 @@
 package mysql
 
 import (
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
-	"github.com/shopspring/decimal"
-	"github.com/stretchr/testify/require"
 	"strings"
 	"testing"
 	"time"
 
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/ptr"
+	"github.com/shopspring/decimal"
+	"github.com/stretchr/testify/require"
+
 	"github.com/google/uuid"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/view"
-	"github.com/go-jet/jet/v2/tests/testdata/results/common"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	"github.com/Bel1Vuk/jetArrays/v2/tests/.gentestdata/mysql/test_sample/model"
+	. "github.com/Bel1Vuk/jetArrays/v2/tests/.gentestdata/mysql/test_sample/table"
+	"github.com/Bel1Vuk/jetArrays/v2/tests/.gentestdata/mysql/test_sample/view"
+	"github.com/Bel1Vuk/jetArrays/v2/tests/testdata/results/common"
 
-	. "github.com/go-jet/jet/v2/mysql"
+	. "github.com/Bel1Vuk/jetArrays/v2/mysql"
 )
 
 func TestAllTypes(t *testing.T) {

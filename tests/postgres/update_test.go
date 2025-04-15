@@ -2,16 +2,17 @@ package postgres
 
 import (
 	"context"
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/qrm"
-	model2 "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/model"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/test_sample/table"
-	"github.com/stretchr/testify/require"
 	"testing"
 	"time"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
+	model2 "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/model"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/table"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/test_sample/table"
+	"github.com/stretchr/testify/require"
 )
 
 func TestUpdateValues(t *testing.T) {

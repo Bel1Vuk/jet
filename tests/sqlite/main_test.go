@@ -4,15 +4,16 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/go-jet/jet/v2/internal/utils/throw"
-	"github.com/go-jet/jet/v2/sqlite"
-	"github.com/go-jet/jet/v2/stmtcache"
-	"github.com/go-jet/jet/v2/tests/dbconfig"
-	"github.com/pkg/profile"
-	"github.com/stretchr/testify/require"
 	"os"
 	"runtime"
 	"testing"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/throw"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/stmtcache"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/dbconfig"
+	"github.com/pkg/profile"
+	"github.com/stretchr/testify/require"
 
 	_ "github.com/mattn/go-sqlite3"
 )

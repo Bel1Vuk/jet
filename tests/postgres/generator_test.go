@@ -12,14 +12,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-jet/jet/v2/generator/metadata"
-	"github.com/go-jet/jet/v2/generator/postgres"
-	"github.com/go-jet/jet/v2/generator/template"
-	"github.com/go-jet/jet/v2/internal/testutils"
-	postgres2 "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/model"
-	"github.com/go-jet/jet/v2/tests/dbconfig"
-	"github.com/go-jet/jet/v2/tests/internal/utils/file"
+	"github.com/Bel1Vuk/jetArrays/v2/generator/metadata"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/generator/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/generator/template"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/testutils"
+	postgres2 "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/model"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/dbconfig"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/internal/utils/file"
 )
 
 func dsn(host string, port int, dbName, user, password string) string {
@@ -476,7 +476,7 @@ var mpaaRatingEnumFile = `
 
 package enum
 
-import "github.com/go-jet/jet/v2/postgres"
+import "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
 
 var MpaaRating = &struct {
 	G    postgres.StringExpression
@@ -504,7 +504,7 @@ var actorSQLBuilderFile = `
 package table
 
 import (
-	"github.com/go-jet/jet/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
 )
 
 var Actor = newActorTable("dvds", "actor", "")
@@ -644,7 +644,7 @@ var actorInfoSQLBuilderFile = `
 package view
 
 import (
-	"github.com/go-jet/jet/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
 )
 
 var ActorInfo = newActorInfoTable("dvds", "actor_info", "")
@@ -783,7 +783,7 @@ var moodEnumContent = `
 
 package enum
 
-import "github.com/go-jet/jet/v2/postgres"
+import "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
 
 var Mood = &struct {
 	Sad   postgres.StringExpression
@@ -806,7 +806,7 @@ var levelEnumContent = `
 
 package enum
 
-import "github.com/go-jet/jet/v2/postgres"
+import "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
 
 // Level enum
 var Level = &struct {
@@ -937,7 +937,7 @@ var allTypesTableContent = `
 package table
 
 import (
-	"github.com/go-jet/jet/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
 )
 
 var AllTypes = newAllTypesTable("test_sample", "all_types", "")
@@ -1201,7 +1201,7 @@ var sampleRangeTableContent = `
 package table
 
 import (
-	"github.com/go-jet/jet/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
 )
 
 var SampleRanges = newSampleRangesTable("test_sample", "sample_ranges", "")
@@ -1294,7 +1294,7 @@ var linkTableContent = `
 package table
 
 import (
-	"github.com/go-jet/jet/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
 )
 
 var Link = newLinkTable("test_sample", "link", "")

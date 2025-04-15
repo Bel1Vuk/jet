@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-jet/jet/v2/generator/metadata"
-	"github.com/go-jet/jet/v2/qrm"
+	"github.com/Bel1Vuk/jetArrays/v2/generator/metadata"
+	"github.com/Bel1Vuk/jetArrays/v2/qrm"
 )
 
 // mySqlQuerySet is dialect query set for MySQL

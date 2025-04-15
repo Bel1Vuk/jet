@@ -2,17 +2,19 @@ package mysql
 
 import (
 	"context"
-	"github.com/go-jet/jet/v2/internal/testutils"
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
-	. "github.com/go-jet/jet/v2/mysql"
-	"github.com/go-jet/jet/v2/qrm"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/table"
 
-	"github.com/stretchr/testify/require"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/utils/ptr"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/test_sample/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/test_sample/table"
+
 	"math/rand"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/require"
 )
 
 func TestInsertValues(t *testing.T) {

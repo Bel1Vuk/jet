@@ -1,6 +1,6 @@
 package jet
 
-import "github.com/go-jet/jet/v2/internal/utils/is"
+import "github.com/Bel1Vuk/jetArrays/v2/internal/utils/is"
 
 // Clause interface
 type Clause interface {

@@ -1,9 +1,10 @@
 package sqlite
 
 import (
-	"github.com/go-jet/jet/v2/internal/jet"
-	"github.com/go-jet/jet/v2/internal/testutils"
 	"testing"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/jet"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
 )
 
 var table1Col1 = IntegerColumn("col1")

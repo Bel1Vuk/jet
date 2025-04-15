@@ -6,16 +6,17 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/go-jet/jet/v2/generator/mysql"
-	"github.com/go-jet/jet/v2/generator/postgres"
-	"github.com/go-jet/jet/v2/generator/sqlite"
-	"github.com/go-jet/jet/v2/internal/utils/errfmt"
-	"github.com/go-jet/jet/v2/tests/internal/utils/repo"
 	"os"
 	"os/exec"
 	"strings"
 
-	"github.com/go-jet/jet/v2/tests/dbconfig"
+	"github.com/Bel1Vuk/jetArrays/v2/generator/mysql"
+	"github.com/Bel1Vuk/jetArrays/v2/generator/postgres"
+	"github.com/Bel1Vuk/jetArrays/v2/generator/sqlite"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/errfmt"
+	"github.com/Bel1Vuk/jetArrays/v2/tests/internal/utils/repo"
+
+	"github.com/Bel1Vuk/jetArrays/v2/tests/dbconfig"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/jackc/pgx/v4/stdlib"
 

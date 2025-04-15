@@ -1,15 +1,16 @@
 package sqlite
 
 import (
-	"github.com/go-jet/jet/v2/internal/testutils"
-	"github.com/go-jet/jet/v2/qrm"
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
-	"github.com/stretchr/testify/require"
 	"testing"
 
-	. "github.com/go-jet/jet/v2/sqlite"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/test_sample/table"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/utils/ptr"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
+	"github.com/stretchr/testify/require"
+
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/test_sample/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/test_sample/table"
 )
 
 func TestMutableColumnsExcludeGeneratedColumn(t *testing.T) {

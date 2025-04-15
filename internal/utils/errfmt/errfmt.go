@@ -1,8 +1,9 @@
 package errfmt
 
 import (
-	"github.com/go-jet/jet/v2/internal/utils/is"
 	"strings"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/is"
 )
 
 // Trace returns well formatted wrapped error trace string

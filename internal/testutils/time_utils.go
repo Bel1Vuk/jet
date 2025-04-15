@@ -1,9 +1,10 @@
 package testutils
 
 import (
-	"github.com/go-jet/jet/v2/internal/utils/throw"
 	"strings"
 	"time"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/throw"
 )
 
 // Date creates time from t string

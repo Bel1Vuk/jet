@@ -3,9 +3,9 @@ package mysql
 import (
 	"testing"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/mysql"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/mysql/dvds/table"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/dvds/table"
 )
 
 func TestUpdateWithJoin(t *testing.T) {

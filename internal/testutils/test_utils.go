@@ -5,19 +5,20 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/go-jet/jet/v2/internal/jet"
-	"github.com/go-jet/jet/v2/internal/utils/throw"
-	"github.com/go-jet/jet/v2/qrm"
-	"github.com/go-jet/jet/v2/stmtcache"
-	"github.com/google/go-cmp/cmp"
-	"github.com/google/uuid"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"os"
 	"path/filepath"
 	"runtime"
 	"testing"
 	"time"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/jet"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/throw"
+	"github.com/Bel1Vuk/jetArrays/v2/qrm"
+	"github.com/Bel1Vuk/jetArrays/v2/stmtcache"
+	"github.com/google/go-cmp/cmp"
+	"github.com/google/uuid"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 // UnixTimeComparer will compare time equality while ignoring time zone

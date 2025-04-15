@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/sqlite"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/sqlite/sakila/model"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/sqlite/sakila/model"
 	"github.com/stretchr/testify/require"
 )
 

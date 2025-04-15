@@ -1,12 +1,13 @@
 package mysql
 
 import (
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/mysql"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/table"
-	"github.com/stretchr/testify/require"
 	"testing"
 	"time"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArrays/v2/mysql"
+	. "github.com/Bel1Vuk/jetArrays/v2/tests/.gentestdata/mysql/test_sample/table"
+	"github.com/stretchr/testify/require"
 )
 
 func TestCast(t *testing.T) {

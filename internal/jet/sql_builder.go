@@ -4,16 +4,17 @@ import (
 	"bytes"
 	"database/sql/driver"
 	"fmt"
-	"github.com/go-jet/jet/v2/internal/3rdparty/pq"
-	"github.com/go-jet/jet/v2/internal/utils/is"
-	"github.com/google/uuid"
-	pq2 "github.com/lib/pq"
 	"reflect"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
 	"unicode"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/3rdparty/pq"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/is"
+	"github.com/google/uuid"
+	pq2 "github.com/lib/pq"
 )
 
 // SQLBuilder generates output SQL

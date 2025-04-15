@@ -2,15 +2,16 @@ package template
 
 import (
 	"fmt"
-	"github.com/go-jet/jet/v2/generator/metadata"
-	"github.com/go-jet/jet/v2/internal/utils/dbidentifier"
-	"github.com/google/uuid"
-	"github.com/jackc/pgtype"
 	"path/filepath"
-	"github.com/lib/pq"
 	"reflect"
 	"strings"
 	"time"
+
+	"github.com/Bel1Vuk/jetArrays/v2/generator/metadata"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/dbidentifier"
+	"github.com/google/uuid"
+	"github.com/jackc/pgtype"
+	"github.com/lib/pq"
 )
 
 // Model is template for model files generation

@@ -2,15 +2,16 @@ package mysql
 
 import (
 	"context"
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/mysql"
-	"github.com/go-jet/jet/v2/qrm"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/mysql/dvds/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/table"
-	"github.com/stretchr/testify/require"
 	"testing"
 	"time"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/dvds/table"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/test_sample/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/test_sample/table"
+	"github.com/stretchr/testify/require"
 )
 
 func TestDeleteWithWhere(t *testing.T) {

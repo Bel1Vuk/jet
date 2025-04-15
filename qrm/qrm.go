@@ -5,8 +5,9 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/go-jet/jet/v2/internal/utils/must"
 	"reflect"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/must"
 )
 
 // ErrNoRows is returned by Query when query result set is empty

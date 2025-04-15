@@ -2,16 +2,17 @@ package mysql
 
 import (
 	"context"
-	"github.com/go-jet/jet/v2/qrm"
 	"testing"
 	"time"
 
+	"github.com/Bel1Vuk/jetArrays/v2/qrm"
+
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/mysql"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/mysql/test_sample/table"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/mysql"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/test_sample/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/mysql/test_sample/table"
 )
 
 func TestUpdateValues(t *testing.T) {

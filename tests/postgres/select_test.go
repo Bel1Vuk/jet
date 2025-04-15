@@ -3,22 +3,23 @@ package postgres
 import (
 	"context"
 	"database/sql"
-	"github.com/go-jet/jet/v2/internal/utils/ptr"
-	"github.com/lib/pq"
 	"testing"
 	"time"
 
-	"github.com/go-jet/jet/v2/qrm"
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/ptr"
+	"github.com/lib/pq"
+
+	"github.com/Bel1Vuk/jetArraystArrays/v2/qrm"
 	"gopkg.in/guregu/null.v4"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/postgres"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/enum"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/model"
-	. "github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/table"
-	"github.com/go-jet/jet/v2/tests/.gentestdata/jetdb/dvds/view"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/postgres"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/enum"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/model"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/table"
+	"github.com/Bel1Vuk/jetArraystArrays/v2/tests/.gentestdata/jetdb/dvds/view"
 )
 
 func TestSelect_ScanToStruct(t *testing.T) {
@@ -505,7 +506,7 @@ LIMIT 15;
 	require.Equal(t, len(filmsPerLanguage[0].Film), limit)
 }
 
-// https://github.com/go-jet/jet/issues/226
+// https://github.com/Bel1Vuk/jetArraystArrays/issues/226
 func TestSelectDuplicateSlicesInDestination(t *testing.T) {
 
 	type Staffs struct {

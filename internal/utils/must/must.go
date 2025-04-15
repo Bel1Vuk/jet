@@ -1,8 +1,9 @@
 package must
 
 import (
-	"github.com/go-jet/jet/v2/internal/utils/is"
 	"reflect"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/utils/is"
 )
 
 // BeTrue panics when condition is false

@@ -1,16 +1,16 @@
 # Jet
 
-[![go-jet](https://circleci.com/gh/go-jet/jet.svg?style=svg)](https://app.circleci.com/pipelines/github/go-jet/jet?branch=master)
-[![codecov](https://codecov.io/gh/go-jet/jet/branch/master/graph/badge.svg)](https://codecov.io/gh/go-jet/jet)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-jet/jet)](https://goreportcard.com/report/github.com/go-jet/jet/v2)
-[![Documentation](https://godoc.org/github.com/go-jet/jet?status.svg)](http://godoc.org/github.com/go-jet/jet/v2)
-[![GitHub release](https://img.shields.io/github/release/go-jet/jet.svg)](https://github.com/go-jet/jet/releases)
+[![go-jet](https://circleci.com/gh/Bel1Vuk/jetArrays.svg?style=svg)](https://app.circleci.com/pipelines/github/Bel1Vuk/jetArrays?branch=master)
+[![codecov](https://codecov.io/gh/Bel1Vuk/jetArrays/branch/master/graph/badge.svg)](https://codecov.io/gh/Bel1Vuk/jetArrays)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Bel1Vuk/jetArrays)](https://goreportcard.com/report/github.com/Bel1Vuk/jetArrays/v2)
+[![Documentation](https://godoc.org/github.com/Bel1Vuk/jetArrays?status.svg)](http://godoc.org/github.com/Bel1Vuk/jetArrays/v2)
+[![GitHub release](https://img.shields.io/github/release/Bel1Vuk/jetArrays.svg)](https://github.com/Bel1Vuk/jetArrays/releases)
 
 Jet is a complete solution for efficient and high performance database access, consisting of type-safe SQL builder 
 with code generation and automatic query result data mapping.  
 Jet currently supports `PostgreSQL`, `MySQL`, `CockroachDB`, `MariaDB` and `SQLite`. Future releases will add support for additional databases.
 
-![jet](https://github.com/go-jet/jet/wiki/image/jet.png)  
+![jet](https://github.com/Bel1Vuk/jetArrays/wiki/image/jet.png)  
 Jet is the easiest, and the fastest way to write complex type-safe SQL queries as a Go code and map database query result 
 into complex object composition. __It is not an ORM.__ 
 
@@ -33,12 +33,12 @@ https://medium.com/@go.jet/jet-5f3667efa0cc
 
 ## Features
  1) Auto-generated type-safe SQL Builder. Statements supported:
-    * [SELECT](https://github.com/go-jet/jet/wiki/SELECT) `(DISTINCT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT, OFFSET, FOR, LOCK_IN_SHARE_MODE, UNION, INTERSECT, EXCEPT, WINDOW, sub-queries)`
-    * [INSERT](https://github.com/go-jet/jet/wiki/INSERT) `(VALUES, MODEL, MODELS, QUERY, ON_CONFLICT/ON_DUPLICATE_KEY_UPDATE, RETURNING)`, 
-    * [UPDATE](https://github.com/go-jet/jet/wiki/UPDATE) `(SET, MODEL, WHERE, RETURNING)`, 
-    * [DELETE](https://github.com/go-jet/jet/wiki/DELETE) `(WHERE, ORDER_BY, LIMIT, RETURNING)`,
-    * [LOCK](https://github.com/go-jet/jet/wiki/LOCK) `(IN, NOWAIT)`, `(READ, WRITE)`
-    * [WITH](https://github.com/go-jet/jet/wiki/WITH)
+    * [SELECT](https://github.com/Bel1Vuk/jetArrays/wiki/SELECT) `(DISTINCT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT, OFFSET, FOR, LOCK_IN_SHARE_MODE, UNION, INTERSECT, EXCEPT, WINDOW, sub-queries)`
+    * [INSERT](https://github.com/Bel1Vuk/jetArrays/wiki/INSERT) `(VALUES, MODEL, MODELS, QUERY, ON_CONFLICT/ON_DUPLICATE_KEY_UPDATE, RETURNING)`, 
+    * [UPDATE](https://github.com/Bel1Vuk/jetArrays/wiki/UPDATE) `(SET, MODEL, WHERE, RETURNING)`, 
+    * [DELETE](https://github.com/Bel1Vuk/jetArrays/wiki/DELETE) `(WHERE, ORDER_BY, LIMIT, RETURNING)`,
+    * [LOCK](https://github.com/Bel1Vuk/jetArrays/wiki/LOCK) `(IN, NOWAIT)`, `(READ, WRITE)`
+    * [WITH](https://github.com/Bel1Vuk/jetArrays/wiki/WITH)
     
  2) Auto-generated Data Model types - Go types mapped to database type (table, view or enum), used to store
  result of database queries. Can be combined to create complex query result destination. 
@@ -56,21 +56,21 @@ To install Jet package, you need to install Go and set your Go workspace first.
 
 Use the command bellow to add jet as a dependency into `go.mod` project:
 ```sh
-$ go get -u github.com/go-jet/jet/v2
+$ go get -u github.com/Bel1Vuk/jetArrays/v2
 ```
 
 Jet generator can be installed in one of the following ways:
 
 - (Go1.16+) Install jet generator using go install:
 ```sh
-go install github.com/go-jet/jet/v2/cmd/jet@latest
+go install github.com/Bel1Vuk/jetArrays/v2/cmd/jet@latest
 ```
 *Jet generator is installed to the directory named by the GOBIN environment variable,
 which defaults to $GOPATH/bin or $HOME/go/bin if the GOPATH environment variable is not set.*
 
 - Install jet generator to specific folder:
 ```sh
-git clone https://github.com/go-jet/jet.git
+git clone https://github.com/Bel1Vuk/jetArrays.git
 cd jet && go build -o dir_path ./cmd/jet
 ```
 *Make sure `dir_path` folder is added to the PATH environment variable.*
@@ -79,7 +79,7 @@ cd jet && go build -o dir_path ./cmd/jet
 
 ### Quick Start
 For this quick start example we will use PostgreSQL sample _'dvd rental'_ database. Full database dump can be found in
-[./tests/testdata/init/postgres/dvds.sql](https://github.com/go-jet/jet-test-data/blob/master/init/postgres/dvds.sql).
+[./tests/testdata/init/postgres/dvds.sql](https://github.com/Bel1Vuk/jetArrays-test-data/blob/master/init/postgres/dvds.sql).
 Schema diagram of interest can be found [here](./examples/quick-start/diagram.png).
 
 #### Generate SQL Builder and Model types
@@ -153,10 +153,10 @@ First we need to import postgres SQLBuilder and generated packages from the prev
 import (
 	// dot import so go code would resemble as much as native SQL
 	// dot import is not mandatory
-	. "github.com/go-jet/jet/v2/examples/quick-start/.gen/jetdb/dvds/table"
-	. "github.com/go-jet/jet/v2/postgres"
+	. "github.com/Bel1Vuk/jetArrays/v2/examples/quick-start/.gen/jetdb/dvds/table"
+	. "github.com/Bel1Vuk/jetArrays/v2/postgres"
 
-	"github.com/go-jet/jet/v2/examples/quick-start/.gen/jetdb/dvds/model"
+	"github.com/Bel1Vuk/jetArrays/v2/examples/quick-start/.gen/jetdb/dvds/model"
 )
 ```
 Let's say we want to retrieve the list of all _actors_ that acted in _films_ longer than 180 minutes, _film language_ is 'English' 
@@ -290,10 +290,10 @@ above statement. Usually this is the most complex and tedious work, but with Jet
 
 First we have to create desired structure to store query result. 
 This is done be combining autogenerated model types, or it can be done 
-by combining custom model types(see [wiki](https://github.com/go-jet/jet/wiki/Query-Result-Mapping-(QRM)#custom-model-types) for more information).  
+by combining custom model types(see [wiki](https://github.com/Bel1Vuk/jetArrays/wiki/Query-Result-Mapping-(QRM)#custom-model-types) for more information).  
 
 _Note that it's possible to overwrite default jet generator behavior. All the aspects of generated model and SQLBuilder types can be 
-tailor-made([wiki](https://github.com/go-jet/jet/wiki/Generator#generator-customization))._
+tailor-made([wiki](https://github.com/Bel1Vuk/jetArrays/wiki/Generator#generator-customization))._
 
 Let's say this is our desired structure made of autogenerated types:  
 ```go
@@ -516,7 +516,7 @@ Complete code example can be found at [./examples/quick-start/quick-start.go](./
 
 
 This example represent probably the most common use case.  Detail info about additional statements, features and use cases can be 
-found at project [Wiki](https://github.com/go-jet/jet/wiki) page.
+found at project [Wiki](https://github.com/Bel1Vuk/jetArrays/wiki) page.
 
 ## Benefits
 
@@ -536,7 +536,7 @@ Thus handler time lost on latency between server and database can be constant. H
 only to the query complexity and the number of rows returned from database. 
 
 With Jet, it is even possible to join the whole database and store the whole structured result in one database call. 
-This is exactly what is being done in one of the tests: [TestJoinEverything](https://github.com/go-jet/jet/blob/6706f4b228f51cf810129f57ba90bbdb60b85fe7/tests/postgres/chinook_db_test.go#L187). 
+This is exactly what is being done in one of the tests: [TestJoinEverything](https://github.com/Bel1Vuk/jetArrays/blob/6706f4b228f51cf810129f57ba90bbdb60b85fe7/tests/postgres/chinook_db_test.go#L187). 
 The whole test database is joined and query result(~10,000 rows) is stored in a structured variable in less than 0.5s. 
 
 ##### How quickly bugs are found
@@ -575,7 +575,7 @@ To run the tests, additional dependencies are required:
 
 ## Versioning
 
-[SemVer](http://semver.org/) is used for versioning. For the versions available, take a look at the [releases](https://github.com/go-jet/jet/releases).  
+[SemVer](http://semver.org/) is used for versioning. For the versions available, take a look at the [releases](https://github.com/Bel1Vuk/jetArrays/releases).  
 
 ## License
 

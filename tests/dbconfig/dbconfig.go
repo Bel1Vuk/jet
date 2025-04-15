@@ -2,7 +2,8 @@ package dbconfig
 
 import (
 	"fmt"
-	"github.com/go-jet/jet/v2/tests/internal/utils/repo"
+
+	"github.com/Bel1Vuk/jetArrays/v2/tests/internal/utils/repo"
 )
 
 // Postgres test database connection parameters

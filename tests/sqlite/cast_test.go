@@ -1,10 +1,11 @@
 package sqlite
 
 import (
-	"github.com/go-jet/jet/v2/internal/testutils"
-	. "github.com/go-jet/jet/v2/sqlite"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/Bel1Vuk/jetArrays/v2/internal/testutils"
+	. "github.com/Bel1Vuk/jetArraystArrays/v2/sqlite"
+	"github.com/stretchr/testify/require"
 )
 
 func TestCast(t *testing.T) {
